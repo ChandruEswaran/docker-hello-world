@@ -70,6 +70,12 @@ Perfect for learning Docker basics and static site deployment.
 
 ---
 
+![Dockerbuild](dockerbuild.png)
+
+![Dockerconfig](dockerconfig.png)
+
+![HelloWorld](Helloworld-BrowseImage.png)
+
 ## Local: Build & Run with Docker
 
 1. **Build the Docker image**
@@ -96,6 +102,7 @@ Perfect for learning Docker basics and static site deployment.
    ```bash
    docker rmi chandru/hello-nginx:latest
    ```
+
 
 ## Optional: Using Docker Compose
 
@@ -133,6 +140,8 @@ Perfect for learning Docker basics and static site deployment.
     docker push chan2005/docker-hello-world:latest
     ```
 
+---
+
 ## GitHub: upload & release steps
 
 1. Initialize local git (if not already):
@@ -167,6 +176,7 @@ Perfect for learning Docker basics and static site deployment.
     git push origin v1.0.0
     ```
 
+---
 
 ## Troubleshooting
 
