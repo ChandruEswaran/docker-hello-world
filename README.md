@@ -97,9 +97,9 @@ Perfect for learning Docker basics and static site deployment.
    docker rmi chandru/hello-nginx:latest
    ```
 
-6. **Optional: Using Docker Compose**
+## Optional: Using Docker Compose
 
-    docker-compose.yml example (optional):
+1. docker-compose.yml example (optional):
 
     ```bash
     version: '3.8'
@@ -111,7 +111,7 @@ Perfect for learning Docker basics and static site deployment.
           - "8080:80"
     ```
 
-7. **Start:**
+2. Start:
     ```bash
     docker-compose up --build -d
     # Stop
